@@ -97,6 +97,7 @@ function endGame() {
     displayScore.appendChild(play);
     
     play.addEventListener('click', () => {
+        score = 0;
         displayScore.remove();
         play.remove();
         document.querySelector('.container').style.display = '';
